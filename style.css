@@ -69,23 +69,28 @@ main .main-new button:hover {
   cursor: pointer;
   background-color: hsla(5, 85%, 63%, 0.801);
 }
-main .suggest-news{
+main .last-news{
     position: absolute;
-    top: 13%;
+    top: 12%;
     right: 13%;
     background-color: black;
     color: white;
     width: 19vw;
+    height: 60vh;
     /* transform: translate(-100%,-100%); */
     padding: 10px 20px 20px 20px;
 }
-main .suggest-news h2{
+main .last-news h2{
     color: hsl(35, 77%, 62%);
     font-size: 35px;
 }
-main .suggest-news p{
-    color: gray;
+main .last-news h3{
+    font-size: 23px;
 }
-main .suggest-news span{
+main .last-news p{
+    color: gray;
+    line-height: 30px;
+}
+main .last-news span{
     color: gray;
 }
