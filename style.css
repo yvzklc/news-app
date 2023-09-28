@@ -33,4 +33,15 @@ main .main-new .main-img{
 }
 main .main-new h1{
     font-size: 66px;
+    display: inline-block;
+}
+
+main .main-new p{
+    display: inline-block;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-100%,-100%);
+    font-size: 20px;
+    line-height: 30px;
 }
