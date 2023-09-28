@@ -69,28 +69,73 @@ main .main-new button:hover {
   cursor: pointer;
   background-color: hsla(5, 85%, 63%, 0.801);
 }
-main .last-news{
-    position: absolute;
-    top: 12%;
-    right: 13%;
-    background-color: black;
-    color: white;
-    width: 19vw;
-    height: 60vh;
-    /* transform: translate(-100%,-100%); */
-    padding: 10px 20px 20px 20px;
+main .last-news {
+  position: absolute;
+  top: 12%;
+  right: 13%;
+  background-color: black;
+  color: white;
+  width: 19vw;
+  height: 60vh;
+  /* transform: translate(-100%,-100%); */
+  padding: 10px 20px 20px 20px;
 }
-main .last-news h2{
-    color: hsl(35, 77%, 62%);
-    font-size: 35px;
+main .last-news h2 {
+  color: hsl(35, 77%, 62%);
+  font-size: 35px;
 }
-main .last-news h3{
-    font-size: 23px;
+main .last-news h3 {
+  font-size: 23px;
 }
-main .last-news p{
-    color: gray;
-    line-height: 30px;
+main .last-news p {
+  color: gray;
+  line-height: 30px;
 }
-main .last-news span{
-    color: gray;
+main .last-news span {
+  color: gray;
+}
+
+.suggest-news {
+  display: flex;
+  align-items: self-start;
+  justify-content: center;
+  padding-right: 3%;
+  line-height: 30px;
+}
+.suggest-news img {
+  height: 130px;
+  display: flex;
+  margin-left: 20px;
+}
+.suggest-news span {
+  font-size: 30px;
+  color: rgba(128, 128, 128, 0.541);
+  padding-left: 10px;
+}
+.suggest-news h3 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 8px;
+  margin-top: 50px;
+  margin-left: -1.6vw;
+}
+.suggest-news p {
+  color: rgba(128, 128, 128, 0.541);
+  font-size: 18px;
+  padding-top: 50px;
+  padding-left: 0;
+  margin-left: -9.7vw;
+}
+
+.suggest-news :nth-child(7){
+    margin-left: -1.8vw;
+}
+.suggest-news :nth-child(8){
+    margin-left: -12vw;
+}
+.suggest-news :nth-child(12){
+    margin-left: -11.5vw;
+}
+.suggest-news :nth-child(11){
+    margin-left: -1.8vw;
 }
