@@ -69,3 +69,16 @@ main .main-new button:hover {
   cursor: pointer;
   background-color: hsla(5, 85%, 63%, 0.801);
 }
+main .suggest-news{
+    position: absolute;
+    top: 13%;
+    right: 13%;
+    background-color: black;
+    color: white;
+    width: 19vw;
+    /* transform: translate(-100%,-100%); */
+    padding: 20px;
+}
+main .suggest-news h2{
+    color: hsl(35, 77%, 62%);
+}
