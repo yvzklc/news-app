@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+*{
+    font-family: "Inter", sans-serif;
+}
 body{
     background-color: rgba(245, 222, 179, 0.397);
 }
@@ -22,4 +26,11 @@ nav ul li{
     padding-top: 0 ;
     margin-right: 0;
  
+}
+
+main .main-new .main-img{
+    width: 700px;
+}
+main .main-new h1{
+    font-size: 66px;
 }
