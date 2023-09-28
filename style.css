@@ -1,67 +1,71 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
-*{
-    font-family: "Inter", sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+* {
+  font-family: "Inter", sans-serif;
 }
-body{
-    background-color: rgba(245, 222, 179, 0.397);
+body {
+  background-color: rgba(245, 222, 179, 0.397);
 }
 .logo {
-    display: inline;
-    margin-top: -4px;
-    margin-left: 15vw;
+  display: inline;
+  margin-top: -4px;
+  margin-left: 15vw;
 }
-nav{
-    margin-top: 50px;
+nav {
+  margin-top: 50px;
+  color: gray;
 }
-nav ul{
-    display: inline;
-    position: absolute;
-    right: 0;
-    margin-right: 15vw;
+nav ul {
+  display: inline;
+  position: absolute;
+  right: 0;
+  margin-right: 15vw;
 }
-nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    padding: 10px;
-    padding-top: 0 ;
-    margin-right: 0;
- 
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 15px;
+  padding-top: 0;
+  margin-right: 0;
 }
-main .main-new{
-    margin-left: 15vw;
+main .main-new {
+  margin-left: 15vw;
 }
-main .main-new .main-img{
-    margin-top: 20px;
-    width: 900px;
-    height: 300px;
+main .main-new .main-img {
+  margin-top: 20px;
+  width: 900px;
+  height: 300px;
 }
-main .main-new h1{
-    font-size: 66px;
-    display: inline-block;
-}
-
-main .main-new p{
-    display: inline-block;
-    position: absolute;
-    top: 62%;
-    left: 64%;
-    transform: translate(-100%,-100%);
-    font-size: 18px;
-    line-height: 30px;
+main .main-new h1 {
+  font-size: 66px;
+  display: inline-block;
 }
 
-main .main-new button{
-    position: absolute;
-    top: 74%;
-    left: 55.3%;
-    transform: translate(-100%,-100%);
-    background-color: hsl(5, 85%, 63%);
-    border: none;
-    color: white;
+main .main-new p {
+  display: inline-block;
+  position: absolute;
+  top: 62%;
+  left: 64%;
+  transform: translate(-100%, -100%);
+  font-size: 18px;
+  line-height: 30px;
+  color: gray;
+}
 
-    width: 12vw;
-    height: 6vh;
-    letter-spacing: 8px;
-    font-weight: 900;
-
+main .main-new button {
+  position: absolute;
+  top: 75%;
+  left: 55.3%;
+  transform: translate(-100%, -100%);
+  background-color: hsl(5, 85%, 63%);
+  border: none;
+  color: white;
+  width: 12vw;
+  height: 6vh;
+  letter-spacing: 8px;
+  font-weight: 900;
+}
+main .main-new button:hover {
+  cursor: pointer;
+  background-color: hsla(5, 85%, 63%, 0.801);
 }
