@@ -27,9 +27,13 @@ nav ul li{
     margin-right: 0;
  
 }
-
+main .main-new{
+    margin-left: 15vw;
+}
 main .main-new .main-img{
-    width: 700px;
+    margin-top: 20px;
+    width: 900px;
+    height: 300px;
 }
 main .main-new h1{
     font-size: 66px;
@@ -39,9 +43,25 @@ main .main-new h1{
 main .main-new p{
     display: inline-block;
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 62%;
+    left: 64%;
     transform: translate(-100%,-100%);
-    font-size: 20px;
+    font-size: 18px;
     line-height: 30px;
+}
+
+main .main-new button{
+    position: absolute;
+    top: 74%;
+    left: 55.3%;
+    transform: translate(-100%,-100%);
+    background-color: hsl(5, 85%, 63%);
+    border: none;
+    color: white;
+
+    width: 12vw;
+    height: 6vh;
+    letter-spacing: 8px;
+    font-weight: 900;
+
 }
