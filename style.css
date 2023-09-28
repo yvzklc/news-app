@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(245, 222, 179, 0.397);
+}
+.logo {
+    display: inline;
+    margin-top: -4px;
+    margin-left: 15vw;
+}
+nav{
+    margin-top: 50px;
+}
+nav ul{
+    display: inline;
+    position: absolute;
+    right: 0;
+    margin-right: 15vw;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 0 ;
+    margin-right: 0;
+ 
+}
