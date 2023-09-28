@@ -77,8 +77,15 @@ main .suggest-news{
     color: white;
     width: 19vw;
     /* transform: translate(-100%,-100%); */
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
 }
 main .suggest-news h2{
     color: hsl(35, 77%, 62%);
+    font-size: 35px;
+}
+main .suggest-news p{
+    color: gray;
+}
+main .suggest-news span{
+    color: gray;
 }
