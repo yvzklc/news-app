@@ -17,7 +17,7 @@ Users should be able to:
 
 ### Screenshot
 
-[!](./img/projectImg.png)
+![project img](https://github.com/yvzklc/news-app/blob/main/img/projectImg.png)
 ./img/darkImg.png
 
 
