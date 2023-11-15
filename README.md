@@ -17,8 +17,8 @@ Users should be able to:
 
 ### Screenshot
 
-(./img/projectImg.png)
-(./img/darkImg.png)
+./img/projectImg.png
+./img/darkImg.png
 
 
 
