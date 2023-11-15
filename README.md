@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: ([https://your-live-site-url.com](https://yvzklc.github.io/news-app/))
+- Live Site URL: https://yvzklc.github.io/news-app/
 
 ## My process
 
